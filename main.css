@@ -3,6 +3,8 @@
     padding:0;
 }
 
+
+
 nav{
     height:10%;
     background-color:rgb(12, 12, 12);
@@ -34,6 +36,29 @@ nav li{
 }
 
 #right-side li{
-    margin:0;
+    margin:0 1em;
     padding:0;
+}
+
+
+.main-text{
+    margin-top:5rem;
+    justify-items: center;
+    padding: 0 3em;
+    border-bottom:1px black solid;
+}
+.main-text h2{
+    font-size:50px;
+    font-style: italic;
+    margin-bottom:1rem;
+}
+
+.main-text p{
+    margin-bottom:1rem;
+    font-size:1.5em;
+}
+
+#ingredients {
+    font-size:small;
+    
 }
