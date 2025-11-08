@@ -39,7 +39,9 @@ nav li{
     margin:0 1em;
     padding:0;
 }
-
+.main-picture img{
+    width:100%;
+}
 
 .main-text{
     margin-top:5rem;
@@ -70,6 +72,11 @@ nav li{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     gap:1rem;
+}
+
+#product-container img{
+    height:200px;
+    
 }
 
 .sales{
