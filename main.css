@@ -60,5 +60,20 @@ nav li{
 
 #ingredients {
     font-size:small;
-    
+}
+#products{
+    padding-top:2rem;
+    text-align:center;
+}
+#product-container {
+    padding:1rem 1rem 0 1rem;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+}
+
+.sales{
+    height:200px;
+    border:1px solid black;
+    background-color:gray;
 }
